@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --bg: #e7d8d8;
+    --bg: #fbfcf8;
     --bg2: #c4d1fc;
 
     --primary: #fd6adb;
@@ -20,18 +20,26 @@
     box-sizing: border-box;
 }
 
+.banner {
+    background-image: url('../src/assets/anime-exemplo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
 body {
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Urbanist", sans-serif;
     font-weight: 600;
     font-style: normal;
 
     margin: 0;
     color: var(--text);
-    background: #fff;
+    background: var(--bg);
 }
 
 h1, h2, h3 {
-    font-family: "Almendra", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     font-weight: 700;
     font-style: normal;
 }

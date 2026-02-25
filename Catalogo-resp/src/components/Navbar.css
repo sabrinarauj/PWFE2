@@ -1,13 +1,20 @@
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
 .navbar {
     font-family: var(--fonte-primaria);
-    background: transparent;
+    background: purple;
     padding: 15px 50px;
     display: flex;
     justify-content: center;
-    border-radius: 12px;
+    align-items: center;
+    border-radius: 30px;
     margin: 10px;
     z-index: 3;
-    
+    width: 40%;  
 }
 
 .conteudo {
@@ -21,34 +28,33 @@
     gap: 50px;
     margin: 0;
     padding: 0;
-   
 }
 
 .links a {
     position: relative;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-size: 18px;
     padding-bottom: 10px;
     transition: color 0.3s ease;
     cursor: pointer;
 }
 
-.links a::after {
+/* .links a::after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: #000;
+    background-color: #fff;
     transition: width 0.3s ease;
     transform-origin: left;
 }
 
 .links a:hover::after {
     width: 100%;
-}
+} */
 
 
 /* código da mary para efeito do hamburguin */
