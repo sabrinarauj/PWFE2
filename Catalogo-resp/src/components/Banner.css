@@ -1,0 +1,18 @@
+.topinho {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topinho-conteudo h1 {
+    font-size: 50px;
+}
+
+.topinho-conteudo p {
+    font-size: 20px;
+}
+
+.topinho-card {
+    background-color: purple;
+    border-radius: 30%;
+}
