@@ -14,6 +14,8 @@
     --border: #fbbff985;
 
     --focus: #ff9539;
+
+    --fonte-primaria: "Montserrat Alternates", sans-serif;
 }
 
 * {
@@ -21,11 +23,12 @@
 }
 
 .banner {
-    background-image: url('../src/assets/anime-exemplo.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../src/assets/momo_ayase.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 100vh;
 }
 
 body {
