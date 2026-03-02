@@ -12,8 +12,35 @@
     border-radius: 30px;
     margin: 10px;
     z-index: 3;
-    width: fit-content; 
+    width: fit-content;
+
+    /* aula da mary */
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100% + 0px);
+    gap: 8px;
+    padding: 0.75rem 1rem;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease; */
 }
+
+/* aula da mary */
+
+/* .navbar.aberta {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+.nav a:hover{
+    background: #a60d61;
+} */
 
 .conteudo {
     display: flex;
@@ -47,6 +74,24 @@
     background: #a60d61;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     color: #fff;
+}
+
+@media (min-width: 1024px) {
+    .sanduiche{
+        display: none;
+    }
+
+    .navbar {
+        position: static;
+        display: flex;
+        gap: 1rem;
+        padding: 0;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        background: #fff;
+        border: 0;
+    }
 }
 
 /* .links a::after {

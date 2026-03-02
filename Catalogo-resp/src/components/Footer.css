@@ -1,0 +1,29 @@
+.footer {
+    margin-top: var(--space-3);
+    border-top: 1px solid pink;
+    padding: var(--space-2);
+    color: var(--text-light);
+}
+
+.footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--space-1);
+    font-size: 0.95rem;
+}
+
+.footer a{
+    font-weight: 700;
+    color: var(--text);
+    background-color: var(--accent-light);
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

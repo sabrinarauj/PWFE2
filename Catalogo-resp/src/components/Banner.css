@@ -1,14 +1,48 @@
-.topinho {
+.topinho{
+    background-color: var(--bg2);
+    border: 1px solid;
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    padding: var(--space-2);
+    display: grid;
+    gap: var(--space-2);
+}
+
+.topinho-conteudo h1{
+    margin: 0;
+    font-size: clamp(1.85rem, 3.2vw, 3rem);
+    line-height: 1.08;
+}
+
+.topinho-conteudo p{
+    margin: var(--space-1);
+    font-size: clamp(1rem, 1.2vw, 1.12rem);
+    max-width: 60ch;
+}
+
+.topinho-botoes{
+    margin-top: var(--space-1);
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
+    flex-wrap: wrap;
+    gap: 0.7rem;
 }
 
-.topinho-conteudo h1 {
-    font-size: 50px;
+.btn {
+    display: inline-block;
+    padding: 0.73rem 1rem;
+    font-weight: 0.95rem;
+    border: 1px solid;
+    box-shadow: var(--shadow);
 }
 
-.topinho-conteudo p {
-    font-size: 20px;
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn-primary:hover{
+    text-decoration: underline;
+    background: linear-gradient(135deg, var(--secundary), var(--accent), var(--secundary));
 }
