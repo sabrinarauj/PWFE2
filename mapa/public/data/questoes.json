@@ -12,9 +12,18 @@
         "id": "q2",
         "titulo": "Pergunta 2",
         "prompt": "Quais eram as opções de nome para o gato laranja Pedro",
-        "correto": ["Chico", "Raul Seixas"],
+        "correto": ["Chico", "Jungkook"],
         "dica": "Turma da Mônica e Baiano",
         "icon": "cat.png"
+    },
+
+     {
+        "id": "q3",
+        "titulo": "Pergunta 3",
+        "prompt": "Qual o nome do novo álbum do BTS?",
+        "correto": ["Arirang", "LY Her"],
+        "dica": "Arirangar",
+        "icon": "savege.png"
     }
 
 ]
