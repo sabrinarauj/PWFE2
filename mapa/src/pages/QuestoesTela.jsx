@@ -1,6 +1,7 @@
 import { useState, useMemo } from "react";
 import questoes from '../../public/data/questoes.json';
 import GridIcones from '../components/GridIcones';
+import QuestionDialog from '../components/'
 
 export default function QuestoesTela() {
 
@@ -58,6 +59,16 @@ export default function QuestoesTela() {
                     trancadaIndex={trancadaIndex}
                     resolvidas={resolvidas}
                 />
+
+                {selecionada && (
+                    <QuestionDialog 
+                    questoes = {selecionada} 
+                    index = {questoes.findIndex( (q) => q.id === selecionada.id)}
+                    total={total} 
+                    onClose={handleClose}
+                    onCorrect={handleCorrect}
+                    />
+                )}
             </main>
         </>
     )
